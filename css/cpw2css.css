@@ -1,0 +1,78 @@
+/* 
+    Document   : cpw2css
+    Created on : 15/03/2012, 02:37:43
+    Author     : echoes
+    Description:
+        Purpose of the stylesheet follows.
+*/
+ 
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+html{
+    margin-left: 25%;
+    width: 616px;
+}
+
+#ifsullogo{
+    padding-bottom: 20px;
+    height: 48px;
+    width: auto;
+    background-image: url(../img/ifsulcasl.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+   /* background-color: #d1f4cf;*/
+}
+#topo{
+    font-family: verdana,sans-serif;
+    font-size: 24px;
+    color: blue;
+    width: 600px;
+    height: 140px;
+    border-bottom: 1px cadetblue dotted;
+}
+
+#prof{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#logo{
+    height: 48px;
+    width: 48px;
+    margin-right: 10px;
+    background-image: url(../img/javascript.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#conteudo{
+    background-color: #d1f4cf;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    border:1px blue solid;
+    background-color: white;
+    margin-left: 25%;
+    
+}
+
+tr{
+    border:1px blue solid;
+}
+
+td{
+     border:1px blue solid;
+}
+
+#lista{
+    padding-top: 10px;
+}
